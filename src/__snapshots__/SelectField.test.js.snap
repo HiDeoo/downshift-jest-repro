@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render should render properly 1`] = `
+<SelectField
+  itemToString={[Function]}
+  items={
+    Array [
+      "test",
+      "test2",
+    ]
+  }
+  placeholder="Choose"
+>
+  <Downshift
+    defaultHighlightedIndex={null}
+    defaultInputValue=""
+    defaultIsOpen={false}
+    defaultSelectedItem={null}
+    getA11yStatusMessage={[Function]}
+    id="downshift-1"
+    isOpen={false}
+    itemToString={[Function]}
+    onChange={[Function]}
+    onStateChange={[Function]}
+    onUserAction={[Function]}
+  >
+    <div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        aria-label="open menu"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+      >
+        Choose
+      </button>
+    </div>
+  </Downshift>
+</SelectField>
+`;
